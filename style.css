@@ -1,13 +1,13 @@
-/* áñéñ ëììé */
+/* בסיס כללי */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e6f7ff; /* úëìú îàåã áäéø */
+    background-color: #e6f7ff; /* תכלת מאוד בהיר */
     color: #333;
     line-height: 1.6;
 }
 
-/* ñøâì òìéåï */
+/* סרגל עליון */
 .navbar {
     background-color: #cceeff;
     padding: 1rem 2rem;
@@ -31,12 +31,12 @@ body {
             color: #0088cc;
         }
 
-/* ëåúøú øàùéú */
+/* כותרת ראשית */
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: transparent; /* äñøúé ø÷ò ìáï */
-    margin-bottom: 60px; /* äåñôúé øéååç îúçú */
+    background-color: transparent; /* הסרתי רקע לבן */
+    margin-bottom: 60px; /* הוספתי ריווח מתחת */
 }
 
 
@@ -49,7 +49,7 @@ body {
     margin-top: 10px;
 }
 
-/* ëôúåøéí */
+/* כפתורים */
 .buttons {
     margin-top: 20px;
 }
@@ -71,7 +71,7 @@ body {
         background-color: #0077b6;
     }
 
-/* è÷ñè ëììé */
+/* טקסט כללי */
 section {
     padding: 60px 20px;
     max-width: 1000px;
@@ -84,7 +84,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* àåãåú */
+/* אודות */
 .about {
     background-color: #ffffff;
     border-radius: 10px;
@@ -92,7 +92,7 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* ñèà÷ èëðé */
+/* סטאק טכני */
 .stack-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -113,7 +113,7 @@ h2 {
     font-weight: bold;
 }
 
-/* ëéùåøéí */
+/* כישורים */
 .skills ul {
     list-style: none;
     padding: 0;
@@ -125,7 +125,7 @@ h2 {
     font-size: 1.1rem;
 }
 
-/* ôøåé÷èéí */
+/* פרויקטים */
 .projects-grid {
     background-color: #ffffff;
     padding: 40px;
@@ -168,7 +168,7 @@ h2 {
             text-decoration: underline;
         }
 
-/* îåãàì */
+/* מודאל */
 .modal {
     display: none;
     position: fixed;
@@ -210,9 +210,31 @@ h2 {
         background-color: #0077b6;
     }
 
+
 .profile-img {
-  width: 200px;
-  border-radius: 50%;
-  margin-top: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.profile-side-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
