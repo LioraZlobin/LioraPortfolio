@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liora Zlobin | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            scroll-margin-top: 100px; /* רווח בגלילה בגלל navbar */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-right">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Hi, I'm <span class="name">Liora Zlobin</span></h1>
+        <p class="subtitle">Junior Software Engineer</p>
+        <div class="buttons">
+            <a href="Liora_Zlobin-Resume.pdf" class="btn" download>Download CV</a>
+            <a href="https://github.com/LioraZlobin" class="btn" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/liora-zlobin-9334b6254/" class="btn" target="_blank">LinkedIn</a>
+            <button class="btn" id="contactBtn">Get in touch</button>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a third-year Software Engineering student with a strong desire to grow in the tech industry.
+            Currently, I’m mostly interested in game development and building websites and applications.
+            I’m passionate about learning new things from scratch and working on innovative projects.
+        </p>
+    </section>
+
+    <section class="stack" id="skills">
+        <h2>Technical Stack</h2>
+        <div class="stack-grid">
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><span>HTML</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /><span>CSS</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><span>JavaScript</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /><span>C#</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /><span>Python</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /><span>Java</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /><span>Git</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" /><span>Linux</span></div>
+            <div class="tech"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" /><span>SQL</span></div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, C++, C#, Java, Python</li>
+            <li>HTML, CSS, JavaScript, SQL</li>
+            <li>Oracle, MS SQL Server</li>
+            <li>GitHub, Linux, JIRA, Jenkins</li>
+            <li>OOP, Assembly, Testing</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-grid" id="projects">
+        <h2>Selected Projects</h2>
+
+        <div class="project-card">
+            <img src="https://raw.githubusercontent.com/BS-PM-2025/BS-PM-2025-TEAM3/main/wwwroot/images/gitgenius_logo.png" alt="GitGenius Project" />
+            <h3>GitGenius – Learn Git Platform</h3>
+            <p>An interactive learning system for Git. Students, instructors, and admin roles. Includes registration, login, group management, and personalized progress tracking.</p>
+            <ul>
+                <li>ASP.NET MVC</li>
+                <li>SQL Server</li>
+                <li>Entity Framework</li>
+            </ul>
+            <a href="https://github.com/BS-PM-2025/BS-PM-2025-TEAM3" target="_blank">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://repository-images.githubusercontent.com/820733785/545f5c93-1f2b-404e-a395-8409c3b7b8a4" alt="eBook Project" />
+            <h3>eBook Library System</h3>
+            <p>A digital book borrowing system with user login, book categories, and admin dashboard. Built with ASP.NET MVC architecture and SQL database.</p>
+            <ul>
+                <li>ASP.NET MVC</li>
+                <li>Entity Framework</li>
+                <li>SQL Server</li>
+            </ul>
+            <a href="https://github.com/LioraZlobin/e_Book" target="_blank">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://raw.githubusercontent.com/mosesberco/Shalom-Kita-A/main/img/logo.png" alt="Shalom Kita A" />
+            <h3>Shalom Kita A</h3>
+            <p>An educational web platform for 2nd grade kids – featuring math, Hebrew, and English learning through games and quizzes. Includes login, registration, and rewards shop.</p>
+            <ul>
+                <li>C#</li>
+                <li>Windows Forms / Web</li>
+                <li>Excel DB</li>
+            </ul>
+            <a href="https://github.com/mosesberco/Shalom-Kita-A" target="_blank">View on GitHub →</a>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <h2>Contact Me</h2>
+            <p><strong>Email:</strong> <a href="mailto:liorazlobin@gmail.com">liorazlobin@gmail.com</a></p>
+            <p><strong>Phone:</strong> +972-52-848-3338</p>
+            <button id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
