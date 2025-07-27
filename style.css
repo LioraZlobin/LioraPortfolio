@@ -1,13 +1,13 @@
-/* αριρ λμμι */
+/* Γ‘Γ±Γ©Γ± Γ«Γ¬Γ¬Γ© */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e6f7ff; /* ϊλμϊ ξΰεγ αδιψ */
+    background-color: #e6f7ff; /* ΓΊΓ«Γ¬ΓΊ Γ®Γ Γ₯Γ£ Γ‘Γ€Γ©ΓΈ */
     color: #333;
     line-height: 1.6;
 }
 
-/* ρψβμ ςμιεο */
+/* Γ±ΓΈΓ’Γ¬ Γ²Γ¬Γ©Γ₯Γ― */
 .navbar {
     background-color: #cceeff;
     padding: 1rem 2rem;
@@ -31,12 +31,12 @@ body {
             color: #0088cc;
         }
 
-/* λεϊψϊ ψΰωιϊ */
+/* Γ«Γ₯ΓΊΓΈΓΊ ΓΈΓ ΓΉΓ©ΓΊ */
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: transparent; /* δρψϊι ψχς μαο */
-    margin-bottom: 60px; /* δερτϊι ψιεεη ξϊηϊ */
+    background-color: transparent; /* Γ€Γ±ΓΈΓΊΓ© ΓΈΓ·Γ² Γ¬Γ‘Γ― */
+    margin-bottom: 60px; /* Γ€Γ₯Γ±Γ΄ΓΊΓ© ΓΈΓ©Γ₯Γ₯Γ§ Γ®ΓΊΓ§ΓΊ */
 }
 
 
@@ -49,7 +49,7 @@ body {
     margin-top: 10px;
 }
 
-/* λτϊεψιν */
+/* Γ«Γ΄ΓΊΓ₯ΓΈΓ©Γ­ */
 .buttons {
     margin-top: 20px;
 }
@@ -71,7 +71,7 @@ body {
         background-color: #0077b6;
     }
 
-/* θχρθ λμμι */
+/* Γ¨Γ·Γ±Γ¨ Γ«Γ¬Γ¬Γ© */
 section {
     padding: 60px 20px;
     max-width: 1000px;
@@ -84,7 +84,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* ΰεγεϊ */
+/* Γ Γ₯Γ£Γ₯ΓΊ */
 .about {
     background-color: #ffffff;
     border-radius: 10px;
@@ -92,7 +92,7 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* ρθΰχ θλπι */
+/* Γ±Γ¨Γ Γ· Γ¨Γ«Γ°Γ© */
 .stack-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -113,7 +113,7 @@ h2 {
     font-weight: bold;
 }
 
-/* λιωεψιν */
+/* Γ«Γ©ΓΉΓ₯ΓΈΓ©Γ­ */
 .skills ul {
     list-style: none;
     padding: 0;
@@ -125,7 +125,7 @@ h2 {
     font-size: 1.1rem;
 }
 
-/* τψειχθιν */
+/* Γ΄ΓΈΓ₯Γ©Γ·Γ¨Γ©Γ­ */
 .projects-grid {
     background-color: #ffffff;
     padding: 40px;
@@ -168,7 +168,7 @@ h2 {
             text-decoration: underline;
         }
 
-/* ξεγΰμ */
+/* Γ®Γ₯Γ£Γ Γ¬ */
 .modal {
     display: none;
     position: fixed;
@@ -209,3 +209,10 @@ h2 {
     #closeModal:hover {
         background-color: #0077b6;
     }
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
